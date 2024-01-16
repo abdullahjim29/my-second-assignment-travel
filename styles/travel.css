@@ -155,7 +155,7 @@ nav ul li{
     font-weight: 400;
     font-size:0.9em;
     margin-top: 0;
-
+    line-height: 25px;
 }
 .destination-image-1{
     width: 90%;
@@ -195,3 +195,58 @@ nav ul li{
 .destination-image-3 img{
     width:100%;
 }
+
+/* choose us section style */
+.choose-us{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.choose-us-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-weight: 400;
+    font-size: 0.9em;
+    line-height: 20px;
+}
+.choose-us-card{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 100px;
+    row-gap: 20px;
+}
+.card{
+   width: 70%;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 55px;
+}
+
+.card img{
+    width: 40px;
+}
+#c2 img{
+    width:50px;
+}
+#c2{
+    width: 70%;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 55px;
+}
+.c3{
+   margin-left: 300px;
+}
+.all-h3{
+    color: #131318;
+    font-weight: 800;
+    font-size: 1.3em;
+}
+.choose-us-description{
+    color: #5A5A5D;
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
