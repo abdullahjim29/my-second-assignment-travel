@@ -145,3 +145,53 @@ nav ul li{
     position: relative;
     top:20px;
 }
+
+/* destination section style */
+.destination{
+    text-align: center;    
+}
+.destination-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-weight: 400;
+    font-size:0.9em;
+    margin-top: 0;
+
+}
+.destination-image-1{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    gap:10px;
+    margin-left:90px;
+    margin-top: 40px;
+}
+
+.destination-image-1 img{
+    width: 100%;
+}
+
+.destination-image-2{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left:90px;
+    gap:20px;
+}
+
+.destination-image-2 img{
+    width: 100%;
+}
+
+.destination-image-3{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 15px;
+    gap: 20px;
+    margin-left: 85px;
+}
+
+.destination-image-3 img{
+    width:100%;
+}
