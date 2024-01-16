@@ -3,6 +3,7 @@
 
 /* shared style */
 *{
+    padding: 0;
     font-family: 'Mulish', sans-serif;
 }
 
@@ -26,6 +27,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 0 90px;
+    
 }
 .nav-logo{
     position: relative;
@@ -250,3 +252,100 @@ nav ul li{
     font-size: 0.9em;
 }
 
+/*news-and-save-up section */
+
+.news-and-save-up{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 100px;
+    margin-top: 80px;
+}
+.news-and-save-up img{
+    width: 50%;
+}
+.newsletter{
+    text-align: center;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+}
+
+.news-head{
+    text-align: left;
+    color: #131318;
+    font-weight: 800;
+    font-size: 1.5em;
+}
+.news-description{
+    text-align: left;
+    color: #5A5A5D;
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+.news-hr{
+    background: rgba(19, 19, 24, 0.10);
+    
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border-style: none;  
+    padding-left: 30px; 
+}
+.subscribe{
+    width: 300px;
+    height: 40px;
+}
+
+/* footer section style */
+.footer-section{
+    width: 100%;
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    margin-top: 100px;
+}
+.footer-section{
+    padding-top: 100px;
+    
+}
+.foot-title{
+    display: inline;
+}
+.foot-image{
+    width: 30px;
+    position: relative;
+    top:5px;
+}
+.foot-description{
+    color: #5A5A5D;
+    font-weight: 400;
+    font-size: 0.9em;
+    line-height: 20px;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+.social-icon img{
+    width: 25px;   
+}
+
+.foot-hr{
+    margin-top: 50px;
+    width: 60%;
+    background: rgba(19, 19, 24, 0.10);
+}
+
+.copy-wright{
+    margin-top: 50px;
+    color: #131318;
+    font-weight: 300;
+    font-size: 0.9em;
+}
