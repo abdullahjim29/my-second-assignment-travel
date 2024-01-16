@@ -40,7 +40,7 @@ nav ul li{
     font-size: 2em;
 }
 
-.colorful{
+.colorful,.btn-primary{
     color: #FF5400;
 }
 .lightgray{
@@ -48,3 +48,62 @@ nav ul li{
     font-weight: 400;
 }
 
+/* Banner section style */
+.banner{
+    background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    border-radius: 16px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+    /* left:90px; */
+    margin-left: 110px;
+}
+.banner-content{
+    text-align: center;
+    padding: 70px 200px 300px 200px;  
+}
+
+.banner-description,.banner-title{
+    width: 650px;
+    padding-left: 20px;
+}
+.banner-title{
+    color: #FFF;
+    font-size: 3em;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.banner-description{
+    color: #FFF;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+/* input style */
+.input-fill{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    padding-top: 15px;
+    margin-top: 40px;
+    margin-right: 90px;
+}
+.input-fill input,.btn-primary{
+    width: 130px;
+    height: 40px;
+    border-radius: 8px;
+    background: #FFF;
+    border-style: none;
+    padding-left: 15px;
+    color: rgba(19, 19, 24, 0.50);
+    font-weight: 400;
+}
+.btn-primary{
+    background: #FF5400;
+    color: #FFF;
+    font-weight: 700;
+}
