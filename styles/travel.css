@@ -1,0 +1,50 @@
+/* Mulish font added from Google font */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap');
+
+*{
+    font-family: 'Mulish', sans-serif;
+}
+
+/* nav style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 90px;
+}
+.nav-logo{
+    position: relative;
+    top: 33px;
+}
+.nav-right{
+    display: flex;
+    gap:10px;
+}
+.nav-right >img{
+    width: 45px;
+    height: 40px;
+}
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 35px;
+    font-weight: 700;
+    font-size: 1em;
+}
+.nav-title{
+    color: #131318;
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.colorful{
+    color: #FF5400;
+}
+.lightgray{
+    color: #424247;
+    font-weight: 400;
+}
+
